@@ -78,8 +78,7 @@ function draw() {
   rock.display();
 
   attach.display();
-	
- boy.display();
+
 }
 
 function mouseDragged(){
