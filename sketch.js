@@ -48,6 +48,8 @@ function draw() {
   background(230);
   //Add code for displaying text here!
   image(boy ,200,340,200,300);
+  textSize(24)
+  text("Press Space for a Second Chnace", 50,50);
   
 
   detectCollision(rock,mango1);
@@ -99,4 +101,11 @@ function detectCollision(lrock,lmango){
 		Matter.Body.setStatic(lmango.body,false)
 	}
 
+}
+
+function keyPressed(){
+  if(keyCode === 32){
+    Matter.Body.setPosition(rock.body,{x:235, y:420});
+    attach.attach(rock.body);
+  }
 }
