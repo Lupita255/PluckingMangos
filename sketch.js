@@ -49,7 +49,7 @@ function draw() {
   //Add code for displaying text here!
   image(boy ,200,340,200,300);
   textSize(24)
-  text("Press Space for a Second Chnace", 50,50);
+  text("Press Space for a Second Chance", 50,50);
   
 
   detectCollision(rock,mango1);
