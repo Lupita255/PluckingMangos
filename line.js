@@ -3,8 +3,8 @@ class chain {
         var options={
             bodyA:bodyA,
             pointB:pointB,
-            length:1,
-            stiffness:0.02
+            length:10,
+            stiffness:0.05
         }
 
     this.pointB= pointB
